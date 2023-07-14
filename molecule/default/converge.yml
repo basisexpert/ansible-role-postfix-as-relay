@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include mprusov.postfix_as_relay"
+      include_role:
+        name: "mprusov.postfix_as_relay"
